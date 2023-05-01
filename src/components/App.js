@@ -48,7 +48,12 @@ function App() {
 }
 
   function getCats() {
-    setCats(getRandomName(data.catNames));
+    if (cats.length === 0){
+      fetch('http://localhost:4000/catNames')
+        .then(resp => resp.json())
+        .then(cat => {
+          setCats(getRandomName(cat))
+        })}
   }
 
   return(

@@ -1,12 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import { useState } from 'react';
 
 function NavBar() {
 
     return(
-        <Nav variant="tabs" defaultActiveKey='home'>
+        <Nav variant='tabs' defaultActiveKey='/'>
       <Nav.Item>
         <Nav.Link eventKey='home' href="/">Home</Nav.Link>
       </Nav.Item>
