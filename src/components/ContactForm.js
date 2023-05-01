@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import {Form, Button} from 'react-bootstrap'
+import {Form, Alert, Button} from 'react-bootstrap'
 
 function ContactForm() {
     const [showMessage, setShowMessage] = useState(false);
+    const [showAlert, setShowAlert] = useState(false);
     const [values, setValues] = useState({
         email: "",
         message: ""
@@ -50,6 +51,23 @@ function ContactForm() {
         } else {
         setShowMessage(false);
         }
+
+        if (showAlert === false) {
+        setShowAlert(true);
+        }
+
+        fetch('http://localhost:4000/formResponses', {
+            method: 'POST', 
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({
+                email: values.email,
+                message: values.message
+            })
+        })
+            .then (resp => resp.json())
+            .then (message => message)
   }
     
 
@@ -68,10 +86,10 @@ function ContactForm() {
                 {formErrors.message && (<p className='text-danger'>{formErrors.message}</p>)}
             </Form.Group>{<br/>}
             <Button type="submit" variant="primary">Send Enquiry</Button>
+            <Alert show={showAlert} variant='secondary' onClose={() => setShowAlert(false)} dismissible >Thank you for your enquiry!</Alert>
         </Form>
         </>
     )
 }
 
 export default ContactForm;
-

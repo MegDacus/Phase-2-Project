@@ -145,34 +145,64 @@
   ],
   "adoptedAnimals": [
     {
-      "id": 0,
-      "name": "Kit Kat",
-      "image": "https://www.artfulpawsphotography.com/wp-content/uploads/2018/05/fcas-artful-paws-studio-cat-photographer-4393.jpg"
+      "name": "Wasabi",
+      "image": "https://www.thesprucepets.com/thmb/jSXF20oGPWZrsxL4bsn3lmfFm20=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1070816470-f33ecde4609c4144a838ae8a78d72182.jpg",
+      "time": "1-5-2023",
+      "id": 1
     },
     {
-      "name": "Cappuccino",
-      "image": "https://www.rd.com/wp-content/uploads/2019/09/Cute-cat-lying-on-his-back-on-the-carpet.-Breed-British-mackerel-with-yellow-eyes-and-a-bushy-mustache.-Close-up-e1573490045672.jpg",
-      "id": 1
+      "name": "Cookie",
+      "image": "https://www.rover.com/blog/wp-content/uploads/2019/06/cat-2934720_1920.jpg",
+      "time": "1-5-2023",
+      "id": 2
+    },
+    {
+      "name": "Maple",
+      "image": "https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg",
+      "time": "1-5-2023",
+      "id": 3
+    },
+    {
+      "name": "Leo",
+      "image": "https://images.dog.ceo/breeds/komondor/n02105505_4105.jpg",
+      "time": "1-5-2023",
+      "id": 4
+    },
+    {
+      "name": "Buddy",
+      "image": "https://images.dog.ceo/breeds/kelpie/n02105412_7819.jpg",
+      "time": "1-5-2023",
+      "id": 5
+    },
+    {
+      "name": "Archie",
+      "image": "https://images.dog.ceo/breeds/terrier-patterdale/dog-1268559_640.jpg",
+      "time": "1-5-2023",
+      "id": 6
+    },
+    {
+      "name": "Maple",
+      "image": "https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg",
+      "time": "1-5-2023",
+      "id": 7
+    },
+    {
+      "name": "Bella",
+      "image": "https://images.dog.ceo/breeds/maltese/n02085936_8767.jpg",
+      "time": "1-5-2023",
+      "id": 8
     },
     {
       "name": "Pickle",
       "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-2.jpg",
-      "id": 2
+      "time": "1-5-2023",
+      "id": 9
     },
     {
-      "name": "Wasabi",
-      "image": "https://www.thesprucepets.com/thmb/jSXF20oGPWZrsxL4bsn3lmfFm20=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1070816470-f33ecde4609c4144a838ae8a78d72182.jpg",
-      "id": 3
-    },
-    {
-      "name": "Nala",
-      "image": "https://images.dog.ceo/breeds/pomeranian/n02112018_692.jpg",
-      "id": 4
-    },
-    {
-      "name": "Duke",
-      "image": "https://images.dog.ceo/breeds/cotondetulear/IMG_20160830_202631573.jpg",
-      "id": 5
+      "name": "Roxy",
+      "image": "https://images.dog.ceo/breeds/germanshepherd/n02106662_4498.jpg",
+      "time": "1-5-2023",
+      "id": 10
     }
   ]
 }

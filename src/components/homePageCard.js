@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React, {useState, useEffect} from 'react';
-import {NavLink} from 'react-router-dom';
 import dogImg from '../images/adopt-dog.jpeg';
 import catImg from '../images/adopt-cat2.jpeg';
 
@@ -25,7 +24,7 @@ function HomePageCard({animalName}) {
     
 
   return (
-    <Card style={{ width: '50%', margin: '1%' }}>
+    <Card style={{ margin: '1%' }}>
       <Card.Img style={{ height: '250px' }} variant="top" src={animalImg} />
       <Card.Body>
         <Card.Title className='text-center'>Available {animalName}</Card.Title>

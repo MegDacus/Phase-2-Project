@@ -1,15 +1,14 @@
-import React, {Component, useState} from "react";
-import { NavLink } from "react-router-dom";
-import {Alert, Card, Container} from 'react-bootstrap';
-import Button from 'react-bootstrap/Button'
+import React from "react";
+import { Card} from 'react-bootstrap';
 
-function AdoptedAnimalCard({image, name}) {
+function AdoptedAnimalCard({animal}) {
     return(
         <div>
             <Card>
-                <Card.Img style={{ height: '250px' }} src={image} className="card-img-top" alt="..."/>
+                <Card.Img style={{ height: '250px' }} src={animal.image} className="card-img-top" alt="..."/>
                 <Card.Body>
-                <Card.Title id="${name}" className="card-title" >{name}</Card.Title>
+                <Card.Title id="${name}" className="card-title" >{animal.name}</Card.Title>
+                <Card.Text style={{opacity: "0.5"}}>Adopted on: {animal.time}</Card.Text>
                 </Card.Body>
             </Card> 
         </div>

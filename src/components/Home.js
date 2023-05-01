@@ -1,7 +1,6 @@
-import React, {useEffect} from 'react';
-import HomePageCard from "./homePageCard";
+import React from 'react';
+import HomePageCard from "./HomePageCard";
 import Container from 'react-bootstrap/Container';
-import CardGroup from 'react-bootstrap/CardGroup';
 import {Row, Col} from 'react-bootstrap'
 
 
@@ -14,10 +13,16 @@ function Home() {
                     <h4 className="heading">Interested in Adopting?</h4>
                     <p className="pHeading heading">Choose below for a list of animals currently up for adoption!</p>
             </Container>
-            <CardGroup>
+            <Container>
+                <Row>
+                    <Col>
                 <HomePageCard animalName="Dogs & Puppies"/>
+                </Col>
+                <Col>
                 <HomePageCard animalName="Cats & Kittens"/>
-            </CardGroup>
+                </Col>
+                </Row>
+            </Container>
         </>
     )
 }
