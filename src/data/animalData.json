@@ -199,11 +199,11 @@
       "id": 9
     },
     {
-<<<<<<< HEAD
       "name": "Roxy",
       "image": "https://images.dog.ceo/breeds/germanshepherd/n02106662_4498.jpg",
-      "time": "1-5-2023",
-=======
+      "time": "1-5-2023"
+    },
+    {
       "name": "Wasabi",
       "image": "https://www.thesprucepets.com/thmb/jSXF20oGPWZrsxL4bsn3lmfFm20=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1070816470-f33ecde4609c4144a838ae8a78d72182.jpg",
       "id": 3
@@ -301,7 +301,6 @@
     {
       "email": "fake@email.com",
       "message": "hi there",
->>>>>>> 22b989999fa02cf2925d464117212761c70bfea8
       "id": 10
     }
   ]
