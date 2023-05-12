@@ -163,95 +163,16 @@
       "id": 3
     },
     {
-      "name": "Leo",
-      "image": "https://images.dog.ceo/breeds/komondor/n02105505_4105.jpg",
-      "time": "1-5-2023",
+      "name": "Tito",
+      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-960998894.jpg",
+      "time": "12-5-2023",
       "id": 4
     },
     {
-      "name": "Buddy",
-      "image": "https://images.dog.ceo/breeds/kelpie/n02105412_7819.jpg",
-      "time": "1-5-2023",
+      "name": "Charlie",
+      "image": "https://images.dog.ceo/breeds/terrier-dandie/n02096437_3930.jpg",
+      "time": "12-5-2023",
       "id": 5
-    },
-    {
-      "name": "Archie",
-      "image": "https://images.dog.ceo/breeds/terrier-patterdale/dog-1268559_640.jpg",
-      "time": "1-5-2023",
-      "id": 6
-    },
-    {
-      "name": "Maple",
-      "image": "https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg",
-      "time": "1-5-2023",
-      "id": 7
-    },
-    {
-      "name": "Bella",
-      "image": "https://images.dog.ceo/breeds/maltese/n02085936_8767.jpg",
-      "time": "1-5-2023",
-      "id": 8
-    },
-    {
-      "name": "Pickle",
-      "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-2.jpg",
-      "time": "1-5-2023",
-      "id": 9
-    },
-    {
-      "name": "Roxy",
-      "image": "https://images.dog.ceo/breeds/germanshepherd/n02106662_4498.jpg",
-      "time": "1-5-2023"
-    },
-    {
-      "name": "Wasabi",
-      "image": "https://www.thesprucepets.com/thmb/jSXF20oGPWZrsxL4bsn3lmfFm20=/2119x0/filters:no_upscale():strip_icc()/GettyImages-1070816470-f33ecde4609c4144a838ae8a78d72182.jpg",
-      "id": 3
-    },
-    {
-      "name": "Nala",
-      "image": "https://images.dog.ceo/breeds/pomeranian/n02112018_692.jpg",
-      "id": 4
-    },
-    {
-      "name": "Duke",
-      "image": "https://images.dog.ceo/breeds/cotondetulear/IMG_20160830_202631573.jpg",
-      "id": 5
-    },
-    {
-      "name": "Mochi",
-      "image": "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-540542926-scaled-e1619016093503.jpg",
-      "id": 6
-    },
-    {
-      "name": "Pickle",
-      "image": "https://wagyourtail.photography/wp-content/uploads/cat-photography-denver-2.jpg",
-      "id": 7
-    },
-    {
-      "name": "Cappuccino",
-      "image": "https://www.rd.com/wp-content/uploads/2019/09/Cute-cat-lying-on-his-back-on-the-carpet.-Breed-British-mackerel-with-yellow-eyes-and-a-bushy-mustache.-Close-up-e1573490045672.jpg",
-      "id": 8
-    },
-    {
-      "name": "Duke",
-      "image": "https://images.dog.ceo/breeds/wolfhound-irish/n02090721_1268.jpg",
-      "id": 9
-    },
-    {
-      "name": "Oreo",
-      "image": "https://weu-az-web-ca-cdn.azureedge.net/mediacontainer/medialibraries/mypetdoctor/images/blog-images/grey-kitten.webp?ext=.webp",
-      "id": 10
-    },
-    {
-      "name": "Maple",
-      "image": "https://www.washingtonian.com/wp-content/uploads/2020/03/sandie-clarke-C8uGiOanMY4-unsplash-2048x1365.jpg",
-      "id": 11
-    },
-    {
-      "name": "Waffle",
-      "image": "https://s.yimg.com/ny/api/res/1.2/DHu3N0IASBeedtu2NdCeXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/daily_paws_articles_948/50e5b4fe0babf23fec63dee04c5482fa",
-      "id": 12
     }
   ],
   "formResponses": [
@@ -284,24 +205,6 @@
       "email": "meganjustice0609@gmail.com",
       "message": "testing form reset",
       "id": 6
-    },
-    {
-      "email": "fake@email.com",
-      "message": "please work",
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "email": "fake@email.com",
-      "message": "hey",
-      "id": 9
-    },
-    {
-      "email": "fake@email.com",
-      "message": "hi there",
-      "id": 10
     }
   ]
 }

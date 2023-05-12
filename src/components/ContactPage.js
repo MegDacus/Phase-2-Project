@@ -11,7 +11,7 @@ function ContactPage() {
                 <p className="heading pHeading">We will get a response to you within 5 business days.</p>
             </div>
             <div className='d-flex justify-content-center adoptionDiv' id="inquiryDiv">
-                    <ContactForm/>
+                <ContactForm/>
             </div>
         </Container>
     )
