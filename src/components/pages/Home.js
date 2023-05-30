@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePageCard from "./HomePageCard";
+import HomePageCard from "../HomePageCard";
 import Container from 'react-bootstrap/Container';
 import {Row, Col} from 'react-bootstrap'
 

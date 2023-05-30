@@ -15,4 +15,7 @@
   margin: 5%;
 }
 
-
+.error {
+  margin-top: 50px;
+  text-align: center;
+}

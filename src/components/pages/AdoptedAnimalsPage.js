@@ -1,4 +1,4 @@
-import AdoptedAnimalCard from './AdoptedAnimalCard'
+import AdoptedAnimalCard from '../AdoptedAnimalCard'
 import {CardGroup, Container} from 'react-bootstrap'
 
 function AdoptedAnimalsPage({animalArray}) {

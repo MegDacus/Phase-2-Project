@@ -36,6 +36,11 @@ function ContactForm() {
         })
             .then (resp => resp.json())
             .then (message => message)
+        
+        setValues({
+            email: "",
+            message: ""
+        })
   }
     
     return(
